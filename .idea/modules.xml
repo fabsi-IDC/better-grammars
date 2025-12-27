@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/better-grammars.iml" filepath="$PROJECT_DIR$/better-grammars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/better-grammars.main.iml" filepath="$PROJECT_DIR$/.idea/modules/better-grammars.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/better-grammars.test.iml" filepath="$PROJECT_DIR$/.idea/modules/better-grammars.test.iml" />
     </modules>
   </component>
 </project>
