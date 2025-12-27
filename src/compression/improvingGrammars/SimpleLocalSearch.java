@@ -81,7 +81,7 @@ public class SimpleLocalSearch  {
             parsableDatasetWords.add(terminals);
         }
     }
-    //searches for better next step
+    //This is the actual local search idk how to name it
     public void walker(SecondaryStructureGrammar grammarToImprove) {
         int i = 0;
         RuleProbType model =  RuleProbType.SEMI_ADAPTIVE;
