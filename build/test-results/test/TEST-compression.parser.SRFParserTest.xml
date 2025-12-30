@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="compression.parser.SRFParserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.350Z" hostname="DESKTOP-8C447QA" time="0.006">
+  <properties/>
+  <testcase name="testSRFParserDerivationToWord" classname="compression.parser.SRFParserTest" time="0.004"/>
+  <testcase name="testSRFParsable" classname="compression.parser.SRFParserTest" time="0.0"/>
+  <testcase name="testsSRFParserLeftMostDerivation" classname="compression.parser.SRFParserTest" time="0.001"/>
+  <testcase name="testMostLikely" classname="compression.parser.SRFParserTest" time="0.001"/>
+  <system-out><![CDATA[1: [., (, (, ., ), ), .]
+2: [A0 → A0 A0, A0 → ., A0 → A0 A0, A0 → ( A4 ), A4 → ( A4 ), A4 → A3, A3 → ., A0 → .]
+3: [., (, (, ., ), ), .]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

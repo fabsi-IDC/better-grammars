@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="compression.samplegrammars.RuleProbsForGrammarSemiAdaptiveTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.367Z" hostname="DESKTOP-8C447QA" time="0.001">
+  <properties/>
+  <testcase name="testRuleProbsForGrammarSemiAdaptive" classname="compression.samplegrammars.RuleProbsForGrammarSemiAdaptiveTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

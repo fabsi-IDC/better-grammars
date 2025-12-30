@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GenericRNAEncoderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.294Z" hostname="DESKTOP-8C447QA" time="0.003">
+  <properties/>
+  <testcase name="testencodeRNA" classname="GenericRNAEncoderTest" time="0.003"/>
+  <testcase name="testTraverseParseTree" classname="GenericRNAEncoderTest" time="0.0"/>
+  <system-out><![CDATA[Liu.getGrammar() = LiuGrammar: {
+  L → <A|(> S <U|)>,
+  L → <A|.>,
+  L → <C|(> S <G|)>,
+  L → <C|.>,
+  L → <G|(> S <C|)>,
+  L → <G|(> S <U|)>,
+  L → <G|.>,
+  L → <U|(> S <A|)>,
+  L → <U|(> S <G|)>,
+  L → <U|.>,
+  S → L,
+  S → L S
+  start symbol: S
+}
+LiuProbs4Tests = {L → <U|(> S <G|)>=0.026851, L → <A|(> S <U|)>=0.071602, L → <A|.>=0.183076, S → L S=0.66, L → <C|(> S <G|)>=0.14402, L → <G|(> S <U|)>=0.017901, L → <G|(> S <C|)>=0.113914, S → L=0.34, L → <U|(> S <A|)>=0.094385, L → <G|.>=0.101709, L → <U|.>=0.158666, L → <C|.>=0.087876}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

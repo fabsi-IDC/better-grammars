@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="compression.grammar.RNAGrammarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.316Z" hostname="DESKTOP-8C447QA" time="0.002">
+  <properties/>
+  <testcase name="testConversion" classname="compression.grammar.RNAGrammarTest" time="0.002"/>
+  <system-out><![CDATA[G = test: {
+  S → ( Z ),
+  S → .,
+  Z → S
+  start symbol: S
+}
+RG = test: {
+  S → <A|(> Z <U|)>,
+  S → <A|.>,
+  S → <C|(> Z <G|)>,
+  S → <C|.>,
+  S → <G|(> Z <C|)>,
+  S → <G|(> Z <U|)>,
+  S → <G|.>,
+  S → <U|(> Z <A|)>,
+  S → <U|(> Z <G|)>,
+  S → <U|.>,
+  Z → S
+  start symbol: S
+}
+RG = test: {
+  S → <A|(> Z <A|)>,
+  S → <A|(> Z <C|)>,
+  S → <A|(> Z <G|)>,
+  S → <A|(> Z <U|)>,
+  S → <A|.>,
+  S → <C|(> Z <A|)>,
+  S → <C|(> Z <C|)>,
+  S → <C|(> Z <G|)>,
+  S → <C|(> Z <U|)>,
+  S → <C|.>,
+  S → <G|(> Z <A|)>,
+  S → <G|(> Z <C|)>,
+  S → <G|(> Z <G|)>,
+  S → <G|(> Z <U|)>,
+  S → <G|.>,
+  S → <U|(> Z <A|)>,
+  S → <U|(> Z <C|)>,
+  S → <U|(> Z <G|)>,
+  S → <U|(> Z <U|)>,
+  S → <U|.>,
+  Z → S
+  start symbol: S
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

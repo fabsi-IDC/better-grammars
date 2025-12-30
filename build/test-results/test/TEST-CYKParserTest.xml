@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CYKParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:37.877Z" hostname="DESKTOP-8C447QA" time="0.011">
+  <properties/>
+  <testcase name="testCYKParserDerivationToWord" classname="CYKParserTest" time="0.007"/>
+  <testcase name="testCYKParserLeftMostDerivation" classname="CYKParserTest" time="0.004"/>
+  <system-out><![CDATA[size of n is:4
+{A=2, B=3, S=1, C=4, D=5, F=6, O=7}
+[A → S B, B → C S, S → O A, S → O D, C → ), F → ., O → (, S → ., S → F S, D → S C]
+1
+1
+true
+1
+1
+true
+1
+1
+1
+true
+1
+1
+1
+true
+1
+1
+true
+1
+true
+1
+1
+1
+Entered the innermost loop
+Entered the innermost loop
+Entered the innermost loop
+Got here!!!!!!!!!!!!
+size of n is:4
+{A=2, B=3, S=1, C=4, D=5, F=6, O=7}
+[A → S B, B → C S, S → O A, S → O D, C → ), F → ., O → (, S → ., S → F S, D → S C]
+1
+1
+true
+1
+1
+true
+1
+1
+1
+true
+1
+1
+1
+true
+1
+1
+true
+1
+true
+1
+1
+1
+Entered the innermost loop
+Entered the innermost loop
+Entered the innermost loop
+Got here!!!!!!!!!!!!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

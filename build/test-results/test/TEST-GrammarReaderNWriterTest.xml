@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GrammarReaderNWriterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.300Z" hostname="DESKTOP-8C447QA" time="0.005">
+  <properties/>
+  <testcase name="testGrammarReadWriteFunctions" classname="GrammarReaderNWriterTest" time="0.005"/>
+  <system-out><![CDATA[simpleGrammar1: {
+  A0 → ( A1 ),
+  A0 → .,
+  A0 → A0 A0,
+  A1 → ( A1 ),
+  A1 → A0
+  start symbol: A0
+}
+simpleGrammar1: {
+  A0 → ( A1 ),
+  A0 → .,
+  A0 → A0 A0,
+  A1 → ( A1 ),
+  A1 → A0
+  start symbol: A0
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

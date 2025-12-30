@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExactArithmeticCoderTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.288Z" hostname="DESKTOP-8C447QA" time="0.004">
+  <properties/>
+  <testcase name="testEncodeDecodeDyadic" classname="ExactArithmeticCoderTest" time="0.001"/>
+  <testcase name="testEncodeDecode" classname="ExactArithmeticCoderTest" time="0.001"/>
+  <testcase name="testEncodeFinalInterval" classname="ExactArithmeticCoderTest" time="0.0"/>
+  <testcase name="testCeilDyadic" classname="ExactArithmeticCoderTest" time="0.001"/>
+  <testcase name="testDivide" classname="ExactArithmeticCoderTest" time="0.0"/>
+  <testcase name="testEncode" classname="ExactArithmeticCoderTest" time="0.001"/>
+  <system-out><![CDATA[B = 011010
+B = 011000010100000100100011010
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

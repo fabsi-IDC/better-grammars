@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="compression.samplegrammars.AdaptiveRuleProbModelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.359Z" hostname="DESKTOP-8C447QA" time="0.006">
+  <properties/>
+  <testcase name="testAdaptiveModel" classname="compression.samplegrammars.AdaptiveRuleProbModelTest" time="0.006"/>
+  <system-out><![CDATA[SRules = [S → L S, S → L]
+TRules = [L → <U|(> S <G|)>, L → <A|.>, L → <A|(> S <U|)>, L → <C|(> S <G|)>, L → <G|(> S <U|)>, L → <G|(> S <C|)>, L → <U|(> S <A|)>, L → <G|.>, L → <U|.>, L → <C|.>]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

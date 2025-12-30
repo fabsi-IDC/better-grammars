@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="compression.grammar.RandomGrammarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-29T18:29:58.320Z" hostname="DESKTOP-8C447QA" time="0.014">
+  <properties/>
+  <testcase name="testRandomExplorer" classname="compression.grammar.RandomGrammarTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
