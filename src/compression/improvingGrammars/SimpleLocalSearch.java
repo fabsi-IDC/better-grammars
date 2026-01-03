@@ -130,7 +130,7 @@ public class SimpleLocalSearch  {
                     if (avgBitsPerBaseFullDatasetStep < avgBitsPerBaseFullDatasetGrammarToImprove) {
                         // after debugging should be replaced with return grammar and another return after i++ if no better grammar has been found
                         steps ++;
-                        return walker(grammarToImprove);
+                        return walker(step);
                     }
                 }
             }
